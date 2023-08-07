@@ -5,3 +5,7 @@ export default function getAuthToken() {
 
   return token;
 }
+
+export function loader (){
+    return getAuthToken()
+}
